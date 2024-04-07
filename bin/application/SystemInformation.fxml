@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #151515;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SettingsController">
+
+    <!-- Ajout des noms des réalisateurs -->
+    <children>
+        <Text layoutX="34.0" layoutY="-7.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="Réalisateurs du Projet:" x="50.0" y="50.0" />
+        <Text layoutX="26.0" layoutY="85.0" style="-fx-fill: #dddddd;" text=" Abdeslam Gounaich" x="50.0" y="80.0">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+        <Text layoutX="21.0" layoutY="210.0" style="-fx-fill: #dddddd;" text=" Abdelhamid Ben Drif" x="50.0" y="100.0">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+        <Text layoutX="13.0" layoutY="332.0" style="-fx-fill: #dddddd;" text="Abdelwahed ID-Boubrik" x="50.0" y="120.0">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+
+        <Text layoutX="344.0" layoutY="68.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="A propos de Projet" x="50.0" y="160.0" AnchorPane.rightAnchor="247.0673828125" />
+        <Text layoutX="345.0" layoutY="-121.0" style="-fx-fill: #ffe500;" text="EL KASABA GYM" x="50.0" y="190.0" AnchorPane.rightAnchor="295.78857421875" AnchorPane.topAnchor="52.8134765625">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Button fx:id="settingspage" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#returntosettings" prefHeight="71.0" prefWidth="45.0" style="-fx-background-color: #151515;">
+         <graphic>
+            <ImageView fitHeight="48.0" fitWidth="66.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Pictures/Sign_in_squre.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="78.0" fitWidth="71.0" layoutX="125.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/e2607aaa-3483-4422-b612-2d9af4412599.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="130.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/8376755c-f4a7-45b4-ba58-79a5f81c16a7.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="80.0" layoutX="116.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/78fbefff-bc63-4451-b272-c6a97ed59d14.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="739.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="11.0">
+         <image>
+            <Image url="@../../Pictures/69542644_106881884020340_2004995140132798464_n.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="258.0" layoutX="399.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="143.0" AnchorPane.topAnchor="81.0">
+         <image>
+            <Image url="@../../../../../Downloads/410300223_686772823441713_4575218856794582175_n.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="345.0" layoutY="-116.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="Nom de la salle de sport:" x="50.0" y="160.0" AnchorPane.rightAnchor="195.1875" AnchorPane.topAnchor="24.576171875" />
+      <Text layoutX="343.0" layoutY="112.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="Design         : " x="50.0" y="160.0" AnchorPane.rightAnchor="294.3857421875" />
+      <Text layoutX="350.0" layoutY="151.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="Ressources  : " x="50.0" y="160.0" AnchorPane.rightAnchor="294.2122395833333">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="27.0" fitWidth="30.0" layoutX="640.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="120.0">
+         <image>
+            <Image url="@../../Pictures/11865338.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="16.0" fitWidth="52.0" layoutX="628.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="120.0">
+         <image>
+            <Image url="@../../Pictures/images.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="534.0" layoutY="80.0" style="-fx-fill: #ffe500;" text="Figma" x="50.0" y="190.0" AnchorPane.rightAnchor="175.658203125">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="501.0" layoutY="149.0" style="-fx-fill: #ffe500;" text="Youtube" x="50.0" y="190.0" AnchorPane.rightAnchor="180.65218098958337">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="509.0" layoutY="119.0" style="-fx-fill: #ffe500;" text="Chat-Gpt" x="50.0" y="190.0" AnchorPane.rightAnchor="180.31884765625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="37.0" fitWidth="17.0" layoutX="644.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="120.0">
+         <image>
+            <Image url="@../../Pictures/images%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="498.0" layoutY="184.0" style="-fx-fill: #ffe500;" text="Ecours ESTA" x="50.0" y="190.0" AnchorPane.rightAnchor="171.42626953125">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="21.0" fitWidth="27.0" layoutX="643.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="135.22222137451172">
+         <image>
+            <Image url="@../../../../../Pictures/Screenshots/Capture%20d'écran%202023-12-27%20005813.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="349.0" layoutY="252.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="Language    :" x="50.0" y="160.0" AnchorPane.rightAnchor="293.87890625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="500.0" layoutY="218.0" style="-fx-fill: #ffe500;" text="Java , JavaFX And Css" x="50.0" y="190.0" AnchorPane.rightAnchor="109.521484375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="347.0" layoutY="312.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-fill: #ffffff;" text="Duree          :" x="50.0" y="160.0" AnchorPane.rightAnchor="294.2122395833333">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="498.0" layoutY="278.0" style="-fx-fill: #ffe500;" text="5 Jours 4 Heures" x="50.0" y="190.0" AnchorPane.rightAnchor="142.8837890625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: #151515;
+    -fx-text-fill: white;
+}
+.text-field {
+    -fx-text-fill: white;
+}
+
+.button {
+    
+    -fx-background-color: #151515;
+    -fx-font-weight: bold;
+}
+
+
+
